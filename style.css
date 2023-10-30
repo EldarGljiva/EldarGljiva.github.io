@@ -18,10 +18,7 @@
   top: 0; /* Position the image at the top of the parent */
   z-index: 2; /* Set a higher z-index value to make the image appear above the text */
 }
-.real-container {
-  width: 1350px;
-  /* CHANGE */
-}
+
 .flex-container-column {
   display: flex;
   flex-direction: column;
@@ -51,9 +48,6 @@ body {
 .flex-container-row {
 }
 
-.container {
-  width: 800px; /*rewriting Bootstrap*/
-}
 footer {
   padding: 10px 10px 10px 10px;
   background: rgb(99, 160, 235);
