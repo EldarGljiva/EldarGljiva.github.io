@@ -167,3 +167,6 @@ hr {
   font-family: "Pixelify Sans", sans-serif;
   color: #abd1c6;
 }
+.back-more {
+  grid-area: 2/2/3/4;
+}
