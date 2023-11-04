@@ -86,6 +86,13 @@ body {
 }
 #second > div > img {
   border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+#second > div > img:hover {
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px #226260;
 }
 
 #second > div > h3 {
@@ -116,11 +123,6 @@ a:hover {
 a:active {
   background-color: #095350;
   border: 1px solid white;
-}
-
-#second > div > img:hover {
-  border: 1px solid white;
-  box-shadow: 0px 0px 15px #226260;
 }
 
 footer {
