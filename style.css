@@ -1,24 +1,20 @@
 .custom-navigation-bar {
-  background-color: transparent !important; /* Set background to transparent */
-  border: 2px solid #e8e4e6; /* Set border color to white */
+  background-color: transparent !important;
+  border: 2px solid #e8e4e6;
 }
-
 .nav-link {
-  color: white !important; /* Set text color to white */
+  color: white !important;
 }
-
 #first {
-  position: relative; /* Set the position to relative for the parent */
-
-  height: 200px; /* Set the width to ensure the image stays within it */
-  overflow: hidden; /* Hide any content that goes beyond the #first's width */
+  position: relative;
+  height: 200px;
+  overflow: hidden;
 }
 #first img {
-  position: absolute; /* Set the position to absolute for the image */
-  top: 0; /* Position the image at the top of the parent */
-  z-index: 2; /* Set a higher z-index value to make the image appear above the text */
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }
-
 .flex-container-column {
   display: flex;
   flex-direction: column;
@@ -26,12 +22,10 @@
   align-items: center;
   gap: 10px;
 }
-
 h1 > img {
   animation: moving 6s infinite;
   animation-timing-function: linear;
 }
-
 @keyframes moving {
   from {
     left: 0%;
@@ -59,7 +53,6 @@ body {
   border: 1px solid white !important;
   background-image: linear-gradient(#e19d38, #e0ab5b);
 }
-
 #first > .flex-container-column > h1 {
   font-size: 5rem;
   color: #fffffe;
@@ -89,12 +82,10 @@ body {
   object-fit: cover;
   border: 1px solid white;
 }
-
 #second > div > img:hover {
   border: 2px solid white;
   box-shadow: 0px 0px 15px #226260;
 }
-
 #second > div > h3 {
   font-size: 2rem;
   color: #abd1c6;
@@ -115,7 +106,6 @@ p {
   font-family: "Pixelify Sans", sans-serif;
   font-weight: 600;
 }
-
 a:hover {
   background-color: #095350;
   border: 1px solid white;
@@ -124,7 +114,6 @@ a:active {
   background-color: #095350;
   border: 1px solid white;
 }
-
 footer {
   padding: 15px;
 }
