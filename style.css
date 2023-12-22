@@ -152,6 +152,19 @@ hr {
     grid-template-rows: 1fr 1fr;
   }
 }
+@media (max-width: 502px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .item {
+    width: 150px;
+    height: 150px;
+  }
+  #technologies-i-love > .flex-container-column > h1 {
+    font-size: 2rem;
+  }
+}
 .hobbies-list > li {
   list-style: none;
   font-size: 1.7rem;
